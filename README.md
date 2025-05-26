@@ -17,20 +17,24 @@ There are several MCP server implementations and options available:
 - **Python MCP Server**: Run your own MCP server in Python, customizing tool support and logic.
 - **LangChain MCP Adapter**: Use LangChain's adapter to connect agents to MCP servers.
 
-
 ## About This Template
 
 This repository is designed as a quick-start template for developers building MCP agents with specifically Azure OpenAI, as other guides only provided template for OpenAI endpoints. It includes sample code for connecting to an MCP server, using the LangChain MCP adapter, and running an agent that can interact with external tools. You can create your own sample MCP Server with MCP tools for your AI to perform agentic actions. It is intended for Azure OpenAI users and requires adaptation to work with OpenAI's public API.
 
 ## Quickstart
+
 To run this template follow the steps:
-1. pip install -r requirements.txt
-2. Populate your .env file with the following: 
-3. python math_server.py
-4. In another terminal run: python client.py
+
+1. Clone repository
+2. pip install -r requirements.txt
+3. Populate your .env file with the following: AZURE_OPENAI_API_KEY, AZURE_OPENAI_ENDPOINT,AZURE_OPENAI_VERSION
+4. 1. python math_server.py
+5. In another terminal run: python client.py
 
 ## Upcoming features
+
 Include more baseline MCP server integration with Azure AI Foundry, Microsoft Copilot, Azure MCP
+
 ---
 
 For more information, see the official documentation for MCP, LangChain, and Azure OpenAI.
