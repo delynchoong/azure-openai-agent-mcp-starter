@@ -26,14 +26,14 @@ This repository is designed as a quick-start template for developers building MC
 To run this template follow the steps:
 
 1. Clone repository
-2. pip install -r requirements.txt
+2. ```` pip install -r requirements.txt ```
 3. Populate your .env file with the following: AZURE_OPENAI_API_KEY, AZURE_OPENAI_ENDPOINT,AZURE_OPENAI_VERSION
-4. 1. python math_server.py
-5. In another terminal run: python client.py
+4. In terminal, run ``` python frontend_api.py ```
+5. This will start all the MCP servers and the LangChain MCP adapter.
 
 ## Upcoming features
 
-Include more baseline MCP server integration with Azure AI Foundry, Microsoft Copilot, Azure MCP
+Include more baseline MCP server integration with Azure AI Foundry, Azure MCP, Fabric MCP Server
 
 ---
 
