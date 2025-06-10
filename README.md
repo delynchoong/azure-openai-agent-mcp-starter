@@ -1,4 +1,4 @@
-# azure-mcp-starter
+# azure-multi-mcp-starter
 
 This project is a starter template for building Model Context Protocol (MCP) agents using Azure OpenAI, not OpenAI. It demonstrates how to use the MCP protocol with Azure's hosted models, providing a foundation for developing advanced AI agents that can interact with external tools and services.
 
@@ -31,6 +31,8 @@ To run this template follow the steps:
 4. In terminal, run ``` python frontend_api.py ```
 5. This will start all the MCP servers and the LangChain MCP adapter.
 
+## Sample application
+![alt text](screenshot1.png)
 ## Upcoming features
 
 Include more baseline MCP server integration with Azure AI Foundry, Azure MCP, Fabric MCP Server
